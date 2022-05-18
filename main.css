@@ -1,0 +1,91 @@
+body {
+    background-color: gainsboro;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.rand {
+    background-color: white;
+    width: 160px;
+    height: 240px;
+    border-radius: 10px;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#random {
+    width: 90px;
+}
+
+.result {
+    background-color: white;
+    height: 140px;
+    width: 400px;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+}
+
+.choose {
+    height: 160px;
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    margin: 55px auto;
+    align-items: center;
+}
+
+.paper , .scissor , .rock {
+    background-color: white;
+    width: 160px;
+    height: 240px;
+    border-radius: 10px;
+}
+
+img {
+    width: 90px;
+}
+
+.rock {
+    border: #3c58ff solid 2px;
+}
+
+.scissor {
+    border: #ff3d3c solid 2px;
+}
+
+.paper {
+    border: #17e70d solid 2px;
+}
+
+.rock:hover {
+    box-shadow: 5px 4px 10px 0px #3c58ff;
+    transition: 0.5s;
+    transform: translateY(-10px);
+}
+
+.scissor:hover {
+    box-shadow: 5px 4px 10px 0px #ff3d3c;
+    transition: 0.5s;
+    transform: translateY(-10px);
+}
+
+.paper:hover {
+    box-shadow: 5px 4px 10px 0px #17e70d;
+    transition: 0.5s;
+    transform: translateY(-10px);
+}
