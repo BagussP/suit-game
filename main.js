@@ -69,4 +69,4 @@ const rock = (a) => {
         document.getElementById("player-status").innerHTML = "Draw"
         document.getElementById("bot-status").innerHTML = "Draw"
     }
-}git
+}
