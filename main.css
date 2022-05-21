@@ -36,8 +36,25 @@ body {
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     font-size: 36px;
+}
+
+.player-side , .bot-side {
+    width: 100px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.player-side p, .bot-side p{
+    margin: 0;
+}
+
+#player , #bot {
+    width: 48px;
 }
 
 .choose {
