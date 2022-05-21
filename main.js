@@ -18,7 +18,7 @@ const paper = (a) => {
         document.getElementById("player").src = "./asset/paper.png"
         document.getElementById("bot").src = "./asset/paper.png"
         document.getElementById("player-status").innerHTML = "Draw"
-        document.getElementById("bot-status").innerHTML = "Draw"
+        document.getElementById("bot-status").innerHTML = "draw"
     }
 }
 
